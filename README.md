@@ -36,7 +36,7 @@ cd Cloud189Checkin
 npm install  
 ```
 ### 运行
-​修改源码中config.js 中userName和password为你的天翼账号和密码，不想改动源码，也可以直接把账号密码写到你电脑的环境变量TY_USER_NAME和TY_PASSWORD
+​修改源码中config.js 中userName和password为你的天翼账号和密码，不想改动源码，也可以直接把账号密码写到你电脑的环境变量TY_USER_NAME和TY_PASSWORD.
 ``` javascript
 module.exports = {
     userName:process.env['TY_USER_NAME']||'userName',
